@@ -11,7 +11,7 @@
 
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>springCloudDemo</artifactId>
+        <artifactId>spring-cloud-demo</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
