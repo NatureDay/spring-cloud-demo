@@ -8,3 +8,5 @@
 ### module-ribbon  服务消费者  采用rest+ribbo实现负载均衡
 
 ### module-feign   服务消费者  采用feign实现负载均衡
+
+### module-zuul               路由，过滤

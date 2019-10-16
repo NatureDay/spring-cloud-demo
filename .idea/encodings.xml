@@ -9,5 +9,6 @@
     <file url="file://$PROJECT_DIR$/module-ribbon/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module-server/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-zuul" charset="UTF-8" />
   </component>
 </project>

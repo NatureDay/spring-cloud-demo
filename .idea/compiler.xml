@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="module-zuul" />
         <module name="module-client" />
         <module name="module-server" />
         <module name="module-ribbon" />
@@ -19,6 +20,7 @@
       <module name="module-feign" options="-parameters" />
       <module name="module-ribbon" options="-parameters" />
       <module name="module-server" options="-parameters" />
+      <module name="module-zuul" options="-parameters" />
     </option>
   </component>
 </project>
