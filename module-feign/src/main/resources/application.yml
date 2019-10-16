@@ -16,3 +16,11 @@ spring:
 feign:
   hystrix:
     enabled: true
+
+# Spring Cloud Finchley 版本以前访问路径是/hystrix.stream，如果是Finchley的话就需要加入上面的配置。
+# 因为spring Boot 2.0.x以后的actuator只暴露了info和health2个端点，这里我们把所有端点开放，include: '*'代表开放所有端点。
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
