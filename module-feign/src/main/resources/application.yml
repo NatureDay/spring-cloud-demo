@@ -1,4 +1,4 @@
-#在配置文件中注明自己的服务注册中心的地址
+# 在配置文件中注明自己的服务注册中心的地址
 eureka:
   client:
     serviceUrl:
@@ -7,7 +7,12 @@ eureka:
 server:
   port: 8765
 
-#需要指明spring.application.name,这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
+# 需要指明spring.application.name,这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
 spring:
   application:
     name: module-feign
+
+# 启用断路器
+feign:
+  hystrix:
+    enabled: true
