@@ -12,6 +12,9 @@ import org.springframework.context.annotation.Bean;
  * 开启hystrixDashboard
  */
 @EnableHystrixDashboard
+/**
+ * 开启Feign的功能
+ */
 @EnableFeignClients
 @SpringBootApplication
 public class ModuleFeignApplication {
